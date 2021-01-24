@@ -17,7 +17,7 @@ public class HelloAppEngine extends HttpServlet {
   public void doGet(HttpServletRequest request, HttpServletResponse response)
       throws IOException {
 
-        System.out.println("hello");
+        System.out.println("hello from windows");
     Properties properties = System.getProperties();
 
     response.setContentType("text/plain");
